@@ -13,6 +13,7 @@ from logging import DEBUG, basicConfig, info, warning, error, debug
 from subprocess import check_output
 
 import sys
+import urllib3
 import requests
 
 from util import ip
